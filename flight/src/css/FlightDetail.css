@@ -1,0 +1,167 @@
+.FlightDetail-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.FlightDetail-flight-container {
+    width: 100%;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid #DFDFDF;
+    border-top: 1px solid #DFDFDF;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.FlightDetail-flight-default-container {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.FlightDetail-flight-date {
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+    width: 150px;
+    text-align: center;
+}
+
+.FlightDetail-tab-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.FlightDetail-tab {
+    color: white;
+    list-style: none;
+    margin-right: 10px;
+    font-size: 18px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    outline: none;
+}
+
+.FlightDetail-tab:hover {
+    cursor: pointer;
+}
+
+.FlightDetail-flight-time-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.FlightDetail-flight-time {
+    color: black;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.FlightDetail-flight-state-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.FlightDetail-flight-state {
+    font-size: 14px;
+    color: black;
+    margin-top: 3px;
+}
+
+.FlightDetail-flight-info-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.FlightDetail-flight-info {
+    color: gray;
+    font-size: 12px;
+    margin-top: 3px;
+    margin-right: 5px;
+}
+
+.FlightDetail-flight-seat {
+    font-size: 14px;
+    margin-top: 3px;
+}
+
+.FlightDetail-flight-duration {
+    font-weight: bold;
+    font-size: 14px;
+    color: black;
+    width: 150px;
+    text-align: center;
+}
+
+.FlightDetail-layover-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.FlightDetail-layover {
+    font-size: 14px;
+    color: black;
+    width: 280px;
+}
+
+.FlightDetail-layover-duration {
+    width: 150px;
+    text-align: center;
+    font-size: 14px;
+    color: black;
+    font-weight: bold;
+}
+
+.FlightDetail-other-info-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.FlightDetail-other-info {
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+}
+
+.FlightDetail-book-button-container {
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.FlightDetail-book-button {
+    background-color: #4099FF;
+    color: white;
+    width: 400px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    border-width: 0px;
+    outline: none;
+}
+
+.FlightDetail-book-button:hover {
+    background-color: rgba(64, 153, 255, 0.8);
+    cursor: pointer;
+}
+
+.FlightDetail-book-button:disabled {
+    background-color: gray;
+}

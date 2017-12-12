@@ -1,0 +1,81 @@
+.PaymentMethods-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.PaymentMethods-indicator-container {
+    margin-top: 20px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.PaymentMethods-activity-indicator {
+    width: 20px;
+    height: 20px;
+}
+
+.PaymentMethods-header {
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.PaymentMethods-label {
+    margin-left: 10px;
+    margin-top: 20px;
+    font-size: 20px;
+    color: #3C6478;
+    font-weight: bold;
+}
+
+.PaymentMethods-add-payment-method-button {
+    margin-top: 20px;
+    margin-left: 10px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px gray;
+    outline: none;
+}
+
+.PaymentMethods-add-payment-method-button:hover {
+    margin-top: 20px;
+    margin-left: 10px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px gray;
+    outline: none;
+    cursor: pointer;
+}
+
+.PaymentMethods-button-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.PaymentMethods-button {
+    background-color: #4099FF;
+    color: white;
+    padding: 10px;
+    border-width: 0px;
+    margin-top: 20px;
+    font-size: 16px;
+    outline: none;
+    width: 45%;
+}
+
+.PaymentMethods-button:hover {
+    background-color: rgba(64, 153, 255, 0.8);
+    color: white;
+    padding: 10px;
+    border-width: 0px;
+    margin-top: 20px;
+    font-size: 16px;
+    outline: none;
+    cursor: pointer;
+}

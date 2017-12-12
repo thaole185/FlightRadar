@@ -1,0 +1,206 @@
+.SearchPanel-container {
+    width: 840px;
+    height: 420px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 20px;
+}
+
+.SearchPanel-tab-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.SearchPanel-tab {
+    color: white;
+    list-style-type: none;
+    margin-right: 30px;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+}
+
+.SearchPanel-tab:hover {
+    color: white;
+    list-style-type: none;
+    margin-right: 30px;
+    font-size: 18px;
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+}
+
+.SearchPanel-default-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.SearchPanel-input-container {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.SearchPanel-label {
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.SearchPanel-date-input {
+    margin-top: 5px;
+    font-size: 18px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: black;
+    outline: none;
+}
+
+.SearchPanel-date-input:hover {
+    margin-top: 5px;
+    font-size: 18px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: black;
+    outline: none;
+    cursor: pointer;
+}
+
+.SearchPanel-input {
+    margin-top: 5px;
+    font-size: 18px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: black;
+    outline: none;
+}
+  
+.Dropdown-root {
+    position: relative;
+}
+  
+.Dropdown-control {
+    position: relative;
+    overflow: hidden;
+    margin-top: 5px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    box-sizing: border-box;
+    color: #333;
+    cursor: default;
+    outline: none;
+    padding: 8px 52px 8px 10px;
+    transition: all 200ms ease;
+}
+  
+.Dropdown-arrow {
+    border-color: #999 transparent transparent;
+    border-style: solid;
+    border-width: 5px 5px 0;
+    content: ' ';
+    display: block;
+    height: 0;
+    margin-top: -ceil(2.5);
+    position: absolute;
+    right: 10px;
+    top: 14px;
+    width: 0
+}
+  
+.is-open .Dropdown-arrow {
+    border-color: transparent transparent #999;
+    border-width: 0 5px 5px;
+}
+  
+.Dropdown-menu {
+    background-color: white;
+    border: 1px solid #ccc;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.06);
+    box-sizing: border-box;
+    margin-top: -1px;
+    max-height: 200px;
+    overflow-y: auto;
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    z-index: 1000;
+    -webkit-overflow-scrolling: touch;
+}
+  
+.Dropdown-option {
+    box-sizing: border-box;
+    color: rgba(51, 51, 51, 0.8);
+    cursor: pointer;
+    display: block;
+    padding: 8px 10px;
+}
+  
+.Dropdown-option:hover {
+    background-color: #F2F9FC;
+    color: #333;
+}
+
+.SearchPanel-submit-button-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.SearchPanel-submit-button {
+    width: 60%;
+    background-color: #4099FF;
+    color: white;
+    padding: 10px;
+    border-width: 0px;
+    font-size: 16px;
+    outline: none;
+}
+
+.SearchPanel-submit-button:hover {
+    width: 60%;
+    background-color: rgba(64, 153, 255, 0.8);
+    color: white;
+    padding: 10px;
+    border-width: 0px;
+    font-size: 16px;
+    outline: none;
+    cursor: pointer;
+}
+
+.SearchPanel-indicator-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.SearchPanel-activity-indicator {
+    width: 18px;
+    height: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.SearchPanel-toast {
+    color: #F44336;
+    font-size: 22px;
+    font-style: italic;
+    font-weight: bold;
+}

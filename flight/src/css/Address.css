@@ -1,0 +1,55 @@
+.Address-container {
+    margin-top: 20px;
+    margin-left: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px gray;
+    outline: none;
+    background-color: #EAEAEA;
+}
+
+.Address-delete-button {
+    position: absolute;
+    border-radius: 8px;
+    background-color: #F44336;
+    outline: none;
+}
+
+.Address-delete-button:hover {
+    position: absolute;
+    border-radius: 8px;
+    background-color: rgba(244, 67, 54, 0.6);
+    outline: none;
+    cursor: pointer;
+}
+
+.Address-info {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-bottom: 3px;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+.Address-edit-button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.Address-edit-button {
+    background-color: rgba(0, 0, 0, 0);
+    border-width: 0px;
+    color: #4099FF;
+    font-size: 14px;
+    outline: none;
+}
+
+.Address-edit-button:hover {
+    cursor: pointer;
+    color: rgba(64, 153, 255, 0.7);
+}

@@ -1,0 +1,152 @@
+Q5,40-Mile Air,United States
+AQ,Aloha Airlines,United States
+AA,American Airlines,United States
+G4,Allegiant Air,United States
+GB,Airborne Express,United States
+4G,Advance Leasing Company,United States
+7A,Aztec Worldwide Airlines,United States
+KO,Alaska Central Express,United States
+2Q,Air Cargo Carriers,United States
+5A,Alpine Air Express,United States
+M6,Amerijet International,United States
+HP,America West Airlines,United States
+ZW,Air Wisconsin,United States
+ZV,Air Midwest,United States
+6V,Air Vegas,United States
+JW,Arrow Air,United States
+EV,Atlantic Southeast Airlines,United States
+8C,Air Transport International,United States
+MQ,American Eagle Airlines,United States
+5F,Arctic Circle Air Service,United States
+ZA,Access Air,United States
+ER,Astar Air Cargo,United States
+QH,Air Florida,United States
+5Y,Atlas Air,United States
+MC,Air Mobility Command,United States
+FL,AirTran Airways,United States
+8Q,Baker Aviation,United States
+CH,Bemidji Airlines,United States
+8E,Bering Air,United States
+BN,Braniff International Airways,United States
+GQ,Big Sky Airlines,United States
+E9,Boston-Maine Airways,United States
+R9,Camai Air,United States
+9K,Cape Air,United States
+PT,Capital Cargo International Airlines,United States
+WE,Centurion Air Cargo,United States
+OP,Chalk s Ocean Airways,United States
+MG,Champion Air,United States
+RP,Chautauqua Airlines,United States
+C8,Chicago Express,United States
+DQ,Coastal Air,United States
+9L,Colgan Air,United States
+OH,Comair,United States
+C5,CommutAir,United States
+CO,Continental Airlines,United States
+CS,Continental Micronesia,United States
+DL,Delta Air Lines,United States
+DH,Discovery Airways,United States
+E0,Eos Airlines,United States
+EZ,Evergreen International Airlines,United States
+OW,Executive Airlines,United States
+EO,Express One International,United States
+XE,ExpressJet,United States
+FX,Federal Express,United States
+PA,Florida Coastal Airlines,United States
+RF,Florida West International Airways,United States
+HK,Four Star Aviation / Four Star Cargo,United States
+FP,Freedom Air,United States
+F9,Frontier Airlines,United States
+2F,Frontier Flying Service,United States
+1G,Galileo International,United States
+ZK,Great Lakes Airlines,United States
+H6,Hageland Aviation Services,United States
+HB,Harbor Airlines,United States
+HA,Hawaiian Airlines,United States
+QX,Horizon Air,United States
+II,IBC Airways,United States
+1U,ITA Software,United States
+IS,Island Airlines,United States
+2S,Island Express,United States
+QJ,Jet Airways,United States
+B6,JetBlue Airways,United States
+K4,Kalitta Air,United States
+M5,Kenmore Air,United States
+KP,Kiwi International Air Lines,United States
+L2,Lynden Air Cargo,United States
+MY,Maxjet Airways,United States
+YV,Mesa Airlines,United States
+XJ,Mesaba Airlines,United States
+JI,Midway Airlines,United States
+YX,Midwest Airlines,United States
+N7,National Airlines,United States
+NA,National Airlines,United States
+1N,Navitaire,United States
+EJ,New England Airlines,United States
+NW,Northwest Airlines,United States
+OY,Omni Air International,United States
+Y5,Pace Airlines,United States
+PS,Pacific Southwest Airlines,United States
+LW,Pacific Wings,United States
+KS,Peninsula Airways,United States
+PI,Piedmont Airlines (1948-1989),United States
+9E,Pinnacle Airlines,United States
+PO,Polar Air Cargo,United States
+BK,Potomac Air,United States
+FE,Primaris Airlines,United States
+1D,Radixx Solutions International,United States
+3C,RegionsAir,United States
+RW,Republic Airlines,United States
+RD,Ryan International Airlines,United States
+BB,Seaborne Airlines,United States
+SY,Sun Country Airlines,United States
+WN,Southwest Airlines,United States
+AL,Skywalk Airlines,United States
+SO,Superior Aviation,United States
+1S,Sabre,United States
+NK,Spirit Airlines,United States
+OO,SkyWest,United States
+S5,Shuttle America,United States
+TI,Tol-Air Services,United States
+T9,TransMeridian Airlines,United States
+TW,Trans World Airlines,United States
+AX,Trans States Airlines,United States
+1L,Open Skies Consultative Commission,United States
+U5,USA3000 Airlines,United States
+UA,United Airlines,United States
+5X,United Parcel Service,United States
+US,US Airways,United States
+UH,US Helicopter Corporation,United States
+VX,Virgin America,United States
+WO,World Airways,United States
+1P,Worldspan,United States
+XP,Xtra Airways,United States
+Y0,Yellow Air Taxi,United States
+KW,Carnival Air Lines,United States
+WP,Island Air (WP),United States
+IL,Illinois Airways,United States
+KT,California Western,United States
+A1,Atifly,United States
+RY,Reno Sky,United States
+3E,Air Choice One,United States
+J5,Alaska Seaplane Service,United States
+-+,U.S. Air,United States
+WQ,PanAm World Airways,United States
+Y1,Yellowstone Club Private Shuttle,United States
+HI,Papillon Grand Canyon Helicopters,United States
+E1,Usa Sky Cargo,United States
+7H,Era Alaska,United States
+H1,Hankook Air US,United States
+YR,SENIC AIRLINES,United States
+B0,Aws express,United States
+76,Southjet,United States
+77,Southjet connect,United States
+78,Southjet cargo,United States
+P4,Patriot Airways,United States
+YE,Yellowtail,United States
+M1,Maryland Air,United States
+ZM,Apache Air,United States
+13,Eastern Atlantic Virtual Airlines,United States
+XA,XAIR USA,United States
+RN,Rainbow Air (RAI),United States
+RM,Rainbow Air US,United States

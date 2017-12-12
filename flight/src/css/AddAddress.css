@@ -1,0 +1,129 @@
+.AddAddress-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.AddAddress-label {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+    font-size: 18px;
+    color: #3C6478;
+    font-weight: bold;
+}
+
+.AddAddress-input-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.AddAddress-input {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 0px;
+    font-size: 18px;
+    outline: none;
+    border-bottom: 1px solid #CCCCCC;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 380px;
+}
+
+.AddAddress-char-count-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.AddAddress-char-count {
+    font-size: 12px;
+    color: gray;
+    font-style: italic;
+}
+
+.AddAddress-suggests {
+    background-color: rgba(255, 255, 255, 0.9);
+    z-index: 1;
+    position: absolute;
+    box-shadow: 2px 2px 2px black;
+    list-style-type: none;
+    width: 500px;
+}
+
+.AddAddress-suggests--hidden {
+    max-height: 0px;
+    overflow: hidden;
+    border-width: 0px;
+}
+
+.AddAddress-suggest {
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: start;
+    outline: none;
+}
+
+.AddAddress-suggest:hover {
+    font-size: 18px;
+    font-weight: bold;
+    color: #4099FF;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: start;
+    outline: none;
+    cursor: pointer;
+}
+
+.AddAddress-submit-button {
+    background-color: #4099FF;
+    color: white;
+    padding: 10px;
+    border-width: 0px;
+    margin-top: 20px;
+    font-size: 16px;
+    outline: none;
+}
+
+.AddAddress-submit-button:hover {
+    background-color: rgba(64, 153, 255, 0.8);
+    color: white;
+    padding: 10px;
+    border-width: 0px;
+    margin-top: 20px;
+    font-size: 16px;
+    outline: none;
+    cursor: pointer;
+}
+
+.AddAddress-indicator-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.AddAddress-activity-indicator {
+    width: 18px;
+    height: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.AddAddress-toast {
+    color: #F44336;
+    font-size: 22px;
+    font-style: italic;
+    font-weight: bold;
+}

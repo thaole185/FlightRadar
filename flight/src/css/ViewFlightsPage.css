@@ -1,0 +1,203 @@
+.ViewFlightsPage-header {
+    background-color: #222222;
+    height: 60px;
+    min-width: 1280px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ViewFlightsPage-header-label {
+    color: white;
+    min-width: 1280px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 20px;
+}
+
+.ViewFlightsPage-logo {
+    animation: ViewFlights-logo-spin infinite 10s linear;
+    height: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.ViewFlightsPage-container {
+    min-height: 1160px;
+    min-width: 1280px;
+    background-color: #c1e1ec;
+}
+
+.ViewFlightsPage-expire {
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 26px;
+    color: black;
+    font-weight: bold;
+}
+
+.ViewFlightsPage-main {
+    min-width: 1280px;
+    min-height: 800px;
+    display: flex;
+    flex-direction: row;
+}
+
+.ViewFlightsPage-main-menu {
+    border-right: 2px solid #F0F0F0;
+    width: 200px;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.ViewFlightsPage-main-menu-button {
+    border-width: 0px;
+    background-color: rgba(0, 0, 0, 0);
+    outline: none;
+    color: #4099FF;
+    font-size: 18px;
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+.ViewFlightsPage-main-menu-button:hover {
+    border-width: 0px;
+    background-color: rgba(0, 0, 0, 0);
+    outline: none;
+    color: rgba(64, 153, 255, 0.7);
+    font-size: 18px;
+    list-style-type: none;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.ViewFlightsPage-main-menu-sort-button {
+    border-width: 0px;
+    outline: none;
+    color: #4099FF;
+    font-size: 18px;
+    list-style-type: none;
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.ViewFlightsPage-main-menu-sort-button:hover {
+    color: rgba(64, 153, 255, 0.7);
+    cursor: pointer;
+}
+
+.ViewFlightsPage-main-menu-button:disabled {
+    border-width: 0px;
+    background-color: rgba(0, 0, 0, 0);
+    outline: none;
+    color: #AAAAAA;
+    font-size: 18px;
+    list-style-type: none;
+    margin-top: 10px;
+}
+
+.ViewFlightsPage-checkbox-label {
+    color: #000080;
+    margin-left: 5px;
+    outline: none;
+}
+
+.ViewFlightsPage-checkbox-label:hover {
+    color: rgba(0, 0, 128, 0.7);
+    cursor: pointer;
+}
+
+.ViewFlightsPage-footer {
+    height: 300px;
+    min-width: 500px;
+    background-color: #222222;
+    display: flex;
+    flex-direction: column;
+}
+
+.ViewFlightsPage-footer-info-container {
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+}
+
+.ViewFlightsPage-footer-info-group-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+
+.ViewFlightsPage-footer-info-header {
+    color: white;
+    font-size: 20px;
+}
+
+.ViewFlightsPage-footer-info {
+    color: #BBBBBB;
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.ViewFlightsPage-footer-right-container {
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-top: 1px solid #AAAAAA;
+    font-size: 18px;
+    color: #BBBBBB;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.ViewFlightsPage-new-search-icon {
+    color: rgba(64, 153, 255, 0.9);
+    margin-right: 20px;
+    outline: none;
+}
+
+.ViewFlightsPage-new-search-icon:hover {
+    color: rgba(64, 153, 255, 0.6);
+    margin-right: 20px;
+    outline: none;
+    cursor: pointer;
+}
+
+.ViewFlightsPage-toast {
+    color: #F44336;
+    font-size: 22px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.ViewFlightsPage-indicator-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ViewFlightsPage-activity-indicator {
+    width: 60px;
+    height: 60px;
+    margin-top: 20px;
+}
+
+.ViewFlightsPage-main-list {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+@keyframes ViewFlights-logo-spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}

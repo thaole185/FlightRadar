@@ -1,0 +1,114 @@
+.MainPage-container {
+    min-width: 1280px;
+    min-height: 800px;
+}
+
+.MainPage-header {
+    background-color: #222222;
+    height: 20vh;
+    text-align: center;
+    min-height: 160px;
+}
+
+.MainPage-title {
+    padding-top: 10px;
+    font-size: 22px;
+    color: white;
+}
+
+.MainPage-logo {
+    animation: App-logo-spin infinite 10s linear;
+    height: 10vh;
+    min-height: 80px;
+    margin-top: 10px;
+}
+
+.MainPage-main {
+    background-image: url('../assets/pictures/main_background_picture.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    min-height: 640px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.MainPage-login {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+@keyframes App-logo-spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+.MainPage-login-button {
+    background-color: rgba(64, 153, 255, 0.8);
+    color: white;
+    padding: 10px;
+    border-width: 0px;
+    border-radius: 5px;
+    outline: none;
+}
+
+.MainPage-login-button:hover {
+    background-color: rgba(64, 153, 255, 0.6);
+    color: white;
+    padding: 10px;
+    border-width: 0px;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+}
+
+.MainPage-register-button {
+    background-color: rgba(64, 153, 255, 0.3);
+    color: white;
+    padding: 10px;
+    border-width: 0px;
+    border-radius: 5px;
+    margin-left: 10px;
+    outline: none;
+}
+
+.MainPage-register-button:hover {
+    background-color: rgba(64, 153, 255, 0.2);
+    color: white;
+    padding: 10px;
+    border-width: 0px;
+    border-radius: 5px;
+    outline: none;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.MainPage-account-container {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.MainPage-account-button {
+    background-color: rgba(0, 0, 0, 0);
+    color: rgba(64, 153, 255, 1);
+    outline: none;
+    text-decoration: none;
+    margin-left: 5px;
+    font-size: 18px;
+}
+
+.MainPage-account-button:hover {
+    background-color: rgba(0, 0, 0, 0);
+    color: rgba(64, 153, 255, 0.8);
+    outline: none;
+    text-decoration: none;
+    margin-left: 5px;
+    font-size: 18px;
+}

@@ -1,0 +1,96 @@
+.Account-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.Account-header {
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.Account-label {
+    margin-left: 10px;
+    margin-top: 5px;
+    font-size: 18px;
+    color: #3C6478;
+    font-weight: bold;
+}
+
+.Account-info {
+    margin-left: 10px;
+    margin-top: 5px;
+    font-size: 16px;
+    color: black;
+}
+
+.Account-indicator-container {
+    margin-top: 10px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.Account-activity-indicator {
+    width: 20px;
+    height: 20px;
+}
+
+.Account-add-address-button {
+    margin-top: 20px;
+    margin-left: 10px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px gray;
+    outline: none;
+    cursor: pointer;
+}
+
+.Account-add-address-button:hover {
+    margin-top: 20px;
+    margin-left: 10px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px gray;
+    outline: none;
+    cursor: pointer;
+}
+
+.Account-button-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Account-button {
+    background-color: #4099FF;
+    color: white;
+    padding: 10px;
+    border-width: 0px;
+    margin-top: 20px;
+    font-size: 16px;
+    outline: none;
+    width: 45%;
+}
+
+.Account-button:hover {
+    background-color: rgba(64, 153, 255, 0.8);
+    color: white;
+    padding: 10px;
+    border-width: 0px;
+    margin-top: 20px;
+    font-size: 16px;
+    outline: none;
+    cursor: pointer;
+}
+
+.Account-toast {
+    color: #F44336;
+    font-size: 22px;
+    font-style: italic;
+    font-weight: bold;
+}

@@ -1,0 +1,99 @@
+.Login-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.Login-label {
+    font-size: 18px;
+    text-align: start;
+    color: #3C6478;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.Login-input {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 85%;
+    border: 0px;
+    font-size: 18px;
+    outline: none;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+.Login-submit-button {
+    background-color: #4099FF;
+    color: white;
+    padding: 10px;
+    border-width: 0px;
+    margin-top: 40px;
+    font-size: 18px;
+    outline: none;
+}
+
+.Login-submit-button:hover {
+    background-color: rgba(64, 153, 255, 0.8);
+    color: white;
+    padding: 10px;
+    border-width: 0px;
+    margin-top: 40px;
+    font-size: 18px;
+    outline: none;
+    cursor: pointer;
+}
+
+.Login-register-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.Login-register-label {
+    font-size: 14px;
+    color: black;
+    font-weight: bold;
+}
+
+.Login-register-button {
+    margin-left: 5px;
+    border-width: 0px;
+    background-color: rgba(0, 0, 0, 0);
+    color: #4099FF;
+    font-size: 14px;
+    outline: none;
+}
+
+.Login-register-button:hover {
+    margin-left: 5px;
+    border-width: 0px;
+    background-color: rgba(0, 0, 0, 0);
+    color: rgba(64, 153, 255, 0.8);
+    font-size: 14px;
+    outline: none;
+    cursor: pointer;
+}
+
+.Login-indicator-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.Login-activity-indicator {
+    width: 18px;
+    height: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.Login-toast {
+    color: #F44336;
+    font-size: 22px;
+    font-style: italic;
+    font-weight: bold;
+}

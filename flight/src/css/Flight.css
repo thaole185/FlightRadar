@@ -1,0 +1,86 @@
+.Flight-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 700px;
+    min-height: 50px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    box-shadow: 1px 1px 1px 1px gray;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.Flight-container:hover {
+    background-color: rgba(255, 255, 255, 0.7);
+    cursor: pointer;
+}
+
+.Flight-info-container {
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+}
+
+.Flight-flight-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #DFDFDF;
+}
+
+.Flight-airline-name {
+    font-size: 16px;
+    color: gray;
+    width: 200px;
+    margin-left: 20px;
+}
+
+.Flight-default-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Flight-time {
+    font-size: 16px;
+    color: black;
+    font-weight: bold;
+}
+
+.Flight-airport-code {
+    font-size: 16px;
+    color: black;
+    margin-top: 10px;
+}
+
+.Flight-duration {
+    font-size: 16px;
+    color: black;
+    margin-right: 10px;
+}
+
+.Flight-price-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Flight-price {
+    font-size: 16px;
+    color: black;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.Flight-trip-duraion {
+    margin-right: 20px;
+    margin-top: 10px;
+    color: black;
+    font-size: 16px;
+}

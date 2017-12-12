@@ -1,0 +1,129 @@
+.BookFlight-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.BookFlight-header-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.BookFlight-header-line-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.BookFlight-header {
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.BookFlight-label {
+    font-size: 22px;
+    color: #3C6478;
+    font-weight: bold;
+    margin-top: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.BookFlight-button {
+    border-width: 0px;
+    background-color: rgba(0, 0, 0, 0);
+    color: #4099FF;
+    font-size: 18px;
+    text-align: start;
+    padding-left: 0px;
+    margin-top: 10px;
+    outline: none;
+}
+
+.BookFlight-button:hover {
+    color: rgba(64, 153, 255, 0.7);
+    cursor: pointer;
+}
+
+.BookFlight-indicator-container {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.BookFlight-activity-indicator {
+    width: 20px;
+    height: 20px;
+}
+
+.BookFlight-description {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #F44336;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.BookFlight-payments-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.BoodFlight-payments-button {
+    background-color: rgba(0, 0, 0, 0);
+    color: #4099FF;
+    font-size: 18px;
+    margin-top: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-width: 0px;
+    text-align: start;
+    outline: none;
+    padding-left: 0px;
+}
+
+.BoodFlight-payments-button:hover {
+    color: rgba(64, 153, 255, 0.7);
+    cursor: pointer;
+}
+
+.BookFlight-process-indicator-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.BookFlight-process-activity-indicator {
+    width: 20px;
+    height: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.BookFlight-book-button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.BookFlight-book-button {
+    width: 75%;
+    background-color: #4099FF;
+    font-size: 18px;
+    color: white;
+    border-width: 0px;
+    font-weight: bold;
+    outline: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.BookFlight-book-button:hover {
+    background-color: rgba(64, 153, 255, 0.7);
+    cursor: pointer;
+}
